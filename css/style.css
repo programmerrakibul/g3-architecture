@@ -1,0 +1,328 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Common style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+}
+
+/* Shared Styles */
+#main > section {
+  margin-top: 6rem;
+}
+
+.container {
+  width: 94%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #ff900e;
+  padding: 1.375rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #131313c4;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* dark-01 */
+.text-dark-01 {
+  color: #131313;
+}
+
+/* dark-02 */
+.text-dark-02 {
+  color: #424242;
+}
+
+/* dark-03 */
+.text-dark-03 {
+  color: #727272;
+}
+
+/* Header Area Styles */
+.header {
+  background-color: #fff4e7;
+  border-bottom: 1px solid #000000;
+}
+
+/* Navbar Area Styles */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.brand-name a {
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+
+.nav-links {
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.nav-links a {
+  font-size: 1.125rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff900e;
+}
+
+.menu-icon {
+  width: 2rem;
+  height: 2rem;
+  display: none;
+}
+
+/* Banner Area Styles */
+.banner-area {
+  margin-top: 70px;
+}
+
+.banner-content {
+  max-width: 862px;
+  margin: 0 auto;
+}
+
+.banner-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.banner-content p {
+  margin: 1.7rem 0;
+}
+
+.banner-img {
+  margin-top: 0.4rem;
+  padding: 1.125rem 0;
+}
+
+/* Team Area Styles */
+.team-content {
+  justify-content: center;
+  align-items: center;
+  gap: 4.5rem;
+}
+
+.team-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.team-info {
+  max-width: 33rem;
+}
+
+.team-info h2 {
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.team-info h2 span:first-child {
+  font-weight: 400;
+}
+
+.team-info h2 span:last-child {
+  color: #ff900e;
+}
+
+.team-info p {
+  margin-bottom: 2rem;
+}
+
+/* Feature Area Styles */
+.feature-container {
+  gap: 7rem;
+}
+
+.feature-content {
+  width: 50%;
+}
+
+.feature-heading {
+  margin-bottom: 1.875rem;
+}
+
+.feature-heading h2 {
+  padding-left: 1.5rem;
+  border-left: 4px solid #ff900e;
+  max-width: 468px;
+  margin-bottom: 1.5rem;
+}
+
+.feature-img {
+  width: 50%;
+}
+
+.feature-items {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.feature-item {
+  padding: 1.875rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+}
+
+.feature-ex {
+  width: fit-content;
+  padding: 2.75rem;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  background: #ff900e;
+  position: relative;
+  top: -100px;
+  left: -90px;
+}
+
+.feature-ex h5 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.feature-ex span {
+  font-size: 1.56rem;
+}
+
+/* Facts Area Styles */
+.fact-heading {
+  margin-bottom: 50px;
+}
+
+.fact-heading p {
+  max-width: 542px;
+  margin-top: 12px;
+}
+
+.fact-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  justify-items: center;
+}
+
+.fact-card-item {
+  width: 15rem;
+  height: 15rem;
+  border: 1px solid #ff900e;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fact-card-item > div h4 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.fact-card-item > div span {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* Sponsor Area Styles */
+.sponsor-heading {
+  margin-bottom: 3rem;
+}
+
+.sponsor-heading p {
+  max-width: 542px;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+
+.sponsor-items {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+  justify-items: center;
+}
+
+.sponsor-card {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer Area Styles */
+.footer {
+  margin-top: 5rem;
+}
+
+.footer-content {
+  padding: 2.2rem 0;
+  background: #fff4e7;
+  border-radius: 0.5rem;
+}
+
+.footer-content span {
+  font-size: 1.25rem;
+}

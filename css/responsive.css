@@ -1,0 +1,162 @@
+@media screen and (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  .brand-name a {
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .brand-name a {
+    font-size: 2rem;
+  }
+
+  .fact-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .brand-name a {
+    font-size: 1.7rem;
+  }
+
+  .team-content,
+  .feature-container {
+    flex-direction: column;
+  }
+
+  .team-info {
+    max-width: 100%;
+  }
+
+  .feature-container {
+    gap: 3rem;
+  }
+
+  .feature-content {
+    width: 100%;
+  }
+
+  .feature-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .feature-img {
+    width: 100%;
+    text-align: center;
+  }
+
+  .feature-ex {
+    top: 1rem;
+    left: 0;
+  }
+
+  .fact-cards {
+    gap: 1rem;
+  }
+
+  .fact-card-item {
+    width: 100%;
+    height: auto;
+  }
+
+  .sponsor-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+
+  .btn {
+    padding: 1rem 1.5rem;
+  }
+
+  .brand-name a {
+    font-size: 1.5rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .fact-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .fact-card-item {
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .menu-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .brand-name a {
+    font-size: 1.1rem;
+  }
+
+  .banner-content h1 {
+    font-size: 2rem;
+  }
+
+  .team-content {
+    flex-direction: column-reverse;
+  }
+
+  .team-img {
+    display: none;
+  }
+
+  .feature-items,
+  .fact-cards,
+  .sponsor-items {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-ex h5 {
+    font-size: 2rem;
+  }
+
+  .fact-card-item {
+    width: 100%;
+    height: auto;
+  }
+
+  .sponsor-items {
+    gap: 1rem;
+  }
+
+  .footer-content span {
+    font-size: 1rem;
+  }
+}

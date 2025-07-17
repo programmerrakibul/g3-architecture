@@ -20,6 +20,11 @@
   .fact-cards {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .fact-card-item {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -62,15 +67,6 @@
     left: 0;
   }
 
-  .fact-cards {
-    gap: 1rem;
-  }
-
-  .fact-card-item {
-    width: 100%;
-    height: auto;
-  }
-
   .sponsor-items {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -103,11 +99,6 @@
 
   .fact-cards {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .fact-card-item {
-    width: 15rem;
-    height: 15rem;
   }
 }
 
@@ -145,11 +136,6 @@
 
   .feature-ex h5 {
     font-size: 2rem;
-  }
-
-  .fact-card-item {
-    width: 100%;
-    height: auto;
   }
 
   .sponsor-items {
